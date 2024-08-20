@@ -1460,6 +1460,10 @@ default
         llXorBase64StringsCorrect(s, s);
         llsRGB2Linear(v);
     }
+    state_entry()
+    {
+        
+    }
     at_rot_target(integer handle, rotation targetrot, rotation ourrot)
     {
         
@@ -1617,10 +1621,6 @@ default
         
     }
     touch_end(integer num_detected)
-    {
-        
-    }
-    touch_start(integer num_detected)
     {
         
     }
